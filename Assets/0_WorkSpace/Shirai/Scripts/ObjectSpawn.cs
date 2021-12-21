@@ -16,7 +16,7 @@ public class ObjectSpawn : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()  
     {
         transform.position -= new Vector3(Time.deltaTime * Speed, 0,0);
         if(transform.position.x <= -10)
