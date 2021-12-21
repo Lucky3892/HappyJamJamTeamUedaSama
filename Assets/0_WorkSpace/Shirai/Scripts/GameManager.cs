@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public GameObject[] CapsulePrefabs;
 
+    public float GameSpeed = 0;
+
     [SerializeField,Header("oŒ»‚·‚éŠÔŠu‚ğ§Œä")]
     private float SpawnTime;
 
